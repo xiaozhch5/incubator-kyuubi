@@ -51,6 +51,11 @@ for pointing to the right Ranger admin server.
         <name>ranger.plugin.spark.policy.rest.url</name>
         <value>ranger admin address like http://ranger-admin.org:6080</value>
     </property>
+ 
+    <property>
+      <name>ranger.credential.provider.path</name>
+      <value>/etc/ranger/admin/rangeradmin.jceks</value>
+    </property>
 
     <property>
         <name>ranger.plugin.spark.service.name</name>
